@@ -1,5 +1,5 @@
 import { Portfolio } from "./Portfolio";
-import { BANK_INFO, INFO_CARDS } from "./helpers";
+import { BankInfo, InformationCard } from "./helpers";
 import { BankCard } from "./BankCard";
 import { Faq } from "./Faq";
 import { InfoCard } from "./InfoCard";
@@ -10,7 +10,7 @@ export default function Home() {
     <main className="flex min-h-full flex-col px-10 xl:px-5 2xl:px-36 gap-5 py-8 bg-black-haze-50 bg-[#f7f8fa]">
       <div className="self-start">
         <h5 className="text-neutral-800 font-2xl font-semibold">
-          Welcome, John Paul
+          Welcome, Johan Paul
         </h5>
       </div>
       <div className="flex items-center gap-7 w-fit flex-wrap">
@@ -23,14 +23,14 @@ export default function Home() {
       <section className="flex gap-7 items-center flex-wrap">
         <div className="flex items-center flex-col gap-7">
           <div className="flex gap-7 flex-wrap xs:w-[440px] md:w-[670px] lg:w-[828px]">
-            {BANK_INFO?.map((bank) => (
-              <BankCard {...bank} key={bank?.bankName} />
+            {BankInfo?.map((bank) => (
+              <BankCard {...bank} key={bank.bankName} />
             ))}
           </div>
           <Faq />
         </div>
         <div className="flex flex-col items-center xl:items-start ">
-          {INFO_CARDS.map((info) => (
+          {InformationCard?.map((info) => (
             <InfoCard key={info.cardName} {...info} />
           ))}
         </div>

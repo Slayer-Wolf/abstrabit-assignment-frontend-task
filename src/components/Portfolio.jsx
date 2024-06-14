@@ -3,7 +3,7 @@ import { GoChevronDown } from "react-icons/go";
 import { PortfolioChart } from "./PortfolioChart";
 export const Portfolio = () => {
   return (
-    <section className="lg:w-[399px] lg:h-[270px] xs:w-[400px] -50bg-white flex flex-col gap-6 rounded-md px-4 py-3 text-neutral-700 shadow-xl">
+    <section className="lg:w-[399px] lg:h-[270px] xs:w-[400px] bg-white flex flex-col gap-6 rounded-md px-4 py-3 text-neutral-700 shadow-xl">
       <div className="flex items-center justify-between text-sm ">
         <h2 className="font-semibold ">Your FD Portfolio</h2>
         <button

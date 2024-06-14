@@ -7,7 +7,7 @@ import checkMahindra from "../assets/check-mahindra.svg";
 import shriram from "../assets/shriram.png";
 import checkShriram from "../assets/check-shriram.svg";
 
-export const BANK_INFO = [
+export const BankInfo = [
   {
     bankName: "Utkarsh Small Finance Bank",
     checkList: ["Highest Interest Rate", "RBI Insured"],
@@ -50,7 +50,7 @@ export const BANK_INFO = [
   },
 ];
 
-export const INFO_CARDS = [
+export const InformationCard = [
   {
     fdPlan: "Utkarsh SF Bank FD Plan 2",
     depositAmt: "Rs. 20,000",

@@ -8,7 +8,7 @@ import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { GoChevronDown, GoChevronUp } from "react-icons/go";
 
-export const RightNav = () => {
+export const NavLinks = () => {
   const [isSupportOpen, setIsSupportOpen] = useState(false);
   const [isProfileOpen, setIsProfileOpen] = useState(false);
   return (
