@@ -60,7 +60,7 @@ const options = {
 
 export function PortfolioChart() {
   return (
-    <div style={{ width: "280px", height: "180px" }}>
+    <div style={{ width: "200px", height: "180px" }}>
       <Pie data={chartData} options={options} />
     </div>
   );
